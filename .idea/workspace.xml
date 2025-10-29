@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8504b8a4-1e67-418f-af8b-5dbc2094023a" name="Changes" comment="Update command app.exec">
+    <list default="true" id="8504b8a4-1e67-418f-af8b-5dbc2094023a" name="Changes" comment="Change design without .ui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_main.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui_main.ui" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +142,9 @@
       <updated>1760105667255</updated>
       <workItem from="1760105677187" duration="4554000" />
       <workItem from="1760299740257" duration="2089000" />
-      <workItem from="1760344601200" duration="9793000" />
+      <workItem from="1760344601200" duration="15066000" />
+      <workItem from="1761145496133" duration="2510000" />
+      <workItem from="1761773824173" duration="783000" />
     </task>
     <task id="LOCAL-00001" summary="Add test window on PySide6">
       <option name="closed" value="true" />
@@ -170,7 +170,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760300517583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Deleted .ui">
+      <option name="closed" value="true" />
+      <created>1760366808429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760366808429</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Getting hardware info">
+      <option name="closed" value="true" />
+      <created>1760366837398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760366837398</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Change design without .ui">
+      <option name="closed" value="true" />
+      <created>1760366865369</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1760366865369</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,10 +204,13 @@
     <MESSAGE value="Add test window on PySide6" />
     <MESSAGE value="Update design" />
     <MESSAGE value="Update command app.exec" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update command app.exec" />
+    <MESSAGE value="Deleted .ui" />
+    <MESSAGE value="Getting hardware info" />
+    <MESSAGE value="Change design without .ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change design without .ui" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$server.coverage" NAME="server Coverage Results" MODIFIED="1760366383644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$client.coverage" NAME="client Coverage Results" MODIFIED="1760366385336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$server.coverage" NAME="server Coverage Results" MODIFIED="1761774545325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$client.coverage" NAME="client Coverage Results" MODIFIED="1761774549796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
