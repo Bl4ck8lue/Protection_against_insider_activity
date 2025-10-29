@@ -2,7 +2,8 @@ import socket
 import platform
 import json
 import wmi
-# import winapps
+import psutil
+import winapps
 
 def build_payload():
     model_cpu = platform.processor()
@@ -18,13 +19,23 @@ def build_payload():
     except Exception:
         ram = 0.0
 
+    disk_partitions = psutil.disk_partitions()
+    #print(len(disk_partitions))
+
+    apps = []
+    for app in winapps.list_installed():
+        apps.append(app.name)
+        #print(app)
+
     j = {
         "CPU": model_cpu,
         "GPU": gpu,
         "Size RAM (GB)": ram,
-        "Disk count": 0
+        "Disk count": len(disk_partitions),
+        "Programs": apps
     }
-    return json.dumps(j)
+
+    return json.dumps(j, ensure_ascii=False)
 
 def main(server_host='127.0.0.1', server_port=50000):
     payload = build_payload().encode('utf-8')
