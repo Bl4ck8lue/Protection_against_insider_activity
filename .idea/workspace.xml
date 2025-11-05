@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8504b8a4-1e67-418f-af8b-5dbc2094023a" name="Changes" comment="Change design without .ui">
+    <list default="true" id="8504b8a4-1e67-418f-af8b-5dbc2094023a" name="Changes" comment="Add a list of installed programs to JSON">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
@@ -144,7 +144,8 @@
       <workItem from="1760299740257" duration="2089000" />
       <workItem from="1760344601200" duration="15066000" />
       <workItem from="1761145496133" duration="2510000" />
-      <workItem from="1761773824173" duration="783000" />
+      <workItem from="1761773824173" duration="4224000" />
+      <workItem from="1762360409478" duration="1769000" />
     </task>
     <task id="LOCAL-00001" summary="Add test window on PySide6">
       <option name="closed" value="true" />
@@ -194,7 +195,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760366865369</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="rewrite files for work">
+      <option name="closed" value="true" />
+      <created>1761774637098</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1761774637098</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".">
+      <option name="closed" value="true" />
+      <created>1761774645288</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761774645288</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add a list of installed programs to JSON">
+      <option name="closed" value="true" />
+      <created>1761776611732</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1761776611732</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,10 +232,13 @@
     <MESSAGE value="Deleted .ui" />
     <MESSAGE value="Getting hardware info" />
     <MESSAGE value="Change design without .ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change design without .ui" />
+    <MESSAGE value="rewrite files for work" />
+    <MESSAGE value="." />
+    <MESSAGE value="Add a list of installed programs to JSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a list of installed programs to JSON" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$server.coverage" NAME="server Coverage Results" MODIFIED="1761774545325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$client.coverage" NAME="client Coverage Results" MODIFIED="1761774549796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$server.coverage" NAME="server Coverage Results" MODIFIED="1762371703065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$client.coverage" NAME="client Coverage Results" MODIFIED="1762360949575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

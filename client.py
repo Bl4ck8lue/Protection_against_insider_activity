@@ -1,3 +1,4 @@
+# client.py
 import socket
 import platform
 import json
@@ -7,9 +8,7 @@ import winapps
 
 def build_payload():
     model_cpu = platform.processor()
-    # WMI для Windows: получить GPU и RAM
     computer = wmi.WMI()
-    gpu = ''
     try:
         gpu = computer.Win32_VideoController()[0].Name
     except Exception:
@@ -20,12 +19,10 @@ def build_payload():
         ram = 0.0
 
     disk_partitions = psutil.disk_partitions()
-    #print(len(disk_partitions))
 
     apps = []
     for app in winapps.list_installed():
         apps.append(app.name)
-        #print(app)
 
     j = {
         "CPU": model_cpu,
@@ -34,7 +31,6 @@ def build_payload():
         "Disk count": len(disk_partitions),
         "Programs": apps
     }
-
     return json.dumps(j, ensure_ascii=False)
 
 def main(server_host='127.0.0.1', server_port=50000):
@@ -43,7 +39,6 @@ def main(server_host='127.0.0.1', server_port=50000):
     try:
         client.connect((server_host, server_port))
         client.sendall(payload)
-        # ждём подтверждение (необязательно)
         resp = client.recv(1024)
         print("Server replied:", resp.decode('utf-8', errors='replace'))
     except Exception as e:
@@ -52,4 +47,5 @@ def main(server_host='127.0.0.1', server_port=50000):
         client.close()
 
 if __name__ == '__main__':
+    # замените на IP сервера при необходимости
     main('127.0.0.1', 50000)
